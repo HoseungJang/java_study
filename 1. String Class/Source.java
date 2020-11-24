@@ -9,5 +9,8 @@ public class Source {
         System.out.println(str1 == str2); // true
         System.out.println(str3 == str4); // false
         System.out.println(str2 == str3); // false
+
+        System.out.println(str3.equals(str4)); // true
+        System.out.println(str4.equals(str3)); // true
     }
 }
